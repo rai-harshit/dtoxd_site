@@ -35,11 +35,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     
     <div class="w3-section">
-    <input type="checkbox" name="consent" value="consent" required>&nbsp;&nbsp;I, hereby declare that I am interested to be a part of DTOXD as a Beta User and give a consent to be contacted in near future. <br>
+    <input type="checkbox" name="consent" value="consent" required>&nbsp;&nbsp;I, hereby declare that I am interested to be a part of <b>DTOXD</b> as a Beta User and give a consent to be contacted in near future. <br>
     </div>
     <br>
     <br>
-    <center><button type="submit" class="w3-button w3-indigo">Submit</button></center>
+    <center><button type="submit" class="w3-button w3-block w3-indigo"><b>SUBMIT</b></button></center>
   </form>
 
 </div>
