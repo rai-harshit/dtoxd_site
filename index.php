@@ -14,7 +14,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </style>
   <body>
   <!-- Contact -->
-  <div class="w3-center w3-padding-48" id="contact">
+  <div class="w3-center w3-padding-32" id="contact">
     <span class="w3-xlarge w3-bottombar w3-border-indigo w3-padding-16"><b>D T O X D</b></span>
   </div>
 <br>
