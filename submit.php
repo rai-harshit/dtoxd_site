@@ -10,19 +10,28 @@ $db_connection = pg_connect("host=$host dbname=$dbname port=$port user=$username
 
 if(!$db_connection)
 {
-	print("Could Not Connect to the Database. Try again later.");
+	print("<center>Could Not Connect to the Database. Try again later.</center>");
 }
-else
-{
-	print("Connected to DB Successfully");
-}
+// else
+// {
+// 	print("Connected to DB Successfully");
+// }
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $contact = $_POST['contact'];
 
 $query = "INSERT INTO parent_details (email, name, contact) values ('$email','$name','$contact')";
-print($query);
+$result = pg_query($query);
+
+if(!$result)
+{
+	print("<center>Something went wrong. Please try again later.</center>");
+}
+else
+{
+	print("<center>Data submitted successfully. Thanks for your time.</center>");
+}
 
 
 ?>
