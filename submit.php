@@ -12,6 +12,10 @@ if(!$db_connection)
 {
 	print("Could Not Connect to the Database. Try again later.");
 }
+else
+{
+	print("Connected to DB Successfully");
+}
 
 $name = $_POST['name'];
 $email = $_POST['email'];
