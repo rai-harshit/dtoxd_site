@@ -15,7 +15,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <body>
   <!-- Contact -->
   <div class="w3-center w3-padding-64" id="contact">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>DTOXD</b></span>
+    <span class="w3-xlarge w3-bottombar w3-border-indigo w3-padding-16"><b>D T O X D</b></span>
   </div>
 <br>
   <form class="w3-container" action="submit.php" method="POST">
@@ -35,11 +35,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     
     <div class="w3-section">
-    <input type="checkbox" name="consent" value="consent" required> I, hereby declare that I am interested to be the part of DTOXD as a Beta user and give a consent to contact me for the freemium. <br>
+    <input type="checkbox" name="consent" value="consent" required>&nbsp;&nbsp;I, hereby declare that I am interested to be a part of DTOXD as a Beta User and give a consent to be contacted in near future. <br>
     </div>
     <br>
     <br>
-    <button type="submit" class="w3-button w3-block w3-dark purple">Submit</button>
+    <center><button type="submit" class="w3-button w3-indigo">Submit</button></center>
   </form>
 
 </div>
