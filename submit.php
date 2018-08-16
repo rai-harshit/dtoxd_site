@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DTOXD : Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+
 <?php 
 
 $host = "ec2-54-235-242-63.compute-1.amazonaws.com";
@@ -22,6 +34,7 @@ $email = $_POST['email'];
 $contact = $_POST['contact'];
 
 $query = "INSERT INTO parent_details (email, name, contact) values ('$email','$name','$contact')";
+print($query);
 $result = pg_query($query);
 
 if(!$result)
@@ -35,3 +48,6 @@ else
 
 
 ?>
+
+</body>
+</html>
