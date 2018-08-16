@@ -34,7 +34,7 @@ $email = $_POST['email'];
 $contact = $_POST['contact'];
 
 $query = "INSERT INTO parent_details (email, name, contact) values ('$email','$name','$contact')";
-print($query);
+
 $result = pg_query($query);
 
 if(!$result)
@@ -43,7 +43,7 @@ if(!$result)
 }
 else
 {
-	print("<center>Data submitted successfully. Thanks for your time.</center>");
+	print('<div class="w3-section"><center>Data submitted successfully. Thanks for your time.</center></div>');
 }
 
 
